@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV de Chamada — HMV</title>
+  <link rel="stylesheet" href="/tv.css" />
+</head>
+<body>
+  <main class="tv-shell">
+    <header class="tv-header">
+      <div class="tv-brand"><strong>HMV</strong><span>Hospital Municipal de Valparaíso de Goiás</span></div>
+      <div class="clock" id="clock"></div>
+    </header>
+
+    <section class="current-call" id="current-call">
+      <p class="label">Chamando agora</p>
+      <h1 id="call-name">Aguardando chamada</h1>
+      <div class="call-meta">
+        <span id="call-code">—</span>
+        <strong id="call-destination">—</strong>
+      </div>
+    </section>
+
+    <section class="recent-section">
+      <div class="recent-head"><h2>Últimas chamadas</h2><span>Atualização automática</span></div>
+      <div class="recent-list" id="recent-list"></div>
+    </section>
+  </main>
+  <script src="/tv.js" defer></script>
+</body>
+</html>

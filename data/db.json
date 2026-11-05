@@ -1,0 +1,567 @@
+{
+  "professionals": [
+    {
+      "id": "prof_a9f185234790",
+      "username": "MEDICO",
+      "passwordHash": "$2b$10$CuedvNdA/RLcknDtaglCMePEjBzfgJMqfgIKWN2Kua9NDSmZc1dOG",
+      "role": "medico",
+      "displayName": "Médico HMV",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.228Z"
+    },
+    {
+      "id": "prof_8b378f7bf8e5",
+      "username": "ATENDIMENTO",
+      "passwordHash": "$2b$10$ba4Xff6F3AXd9FHC8OHZ0.pTcg86CnNdcH89tBGEhXvr4gfc71mdK",
+      "role": "atendimento",
+      "displayName": "Atendimento HMV",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.282Z"
+    },
+    {
+      "id": "prof_56159f715652",
+      "username": "TRIAGEM",
+      "passwordHash": "$2b$10$.wvReDHJf.V9EdBy0Req9eUA8Vy5cNYDJ7GKiw/YVpZs5Xd2TJjp2",
+      "role": "triagem",
+      "displayName": "Triagem HMV",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.334Z"
+    },
+    {
+      "id": "prof_a8dbfb58ad4b",
+      "username": "ALMOXARIFADO",
+      "passwordHash": "$2b$10$SPTNscAs/2MKj6IxrSEnfeCA49XUiXHiDhu40zRJAca07nwq9aflW",
+      "role": "almoxarifado",
+      "displayName": "Almoxarifado HMV",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.389Z"
+    },
+    {
+      "id": "prof_b4f117ce3226",
+      "username": "ADMIN",
+      "passwordHash": "$2b$10$ok85cbeqzb6cpej/RXAxF../MteTvAKmfN1IZMf6BCvuE.BkWGZTS",
+      "role": "admin",
+      "displayName": "Administrador HMV",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z"
+    }
+  ],
+  "patients": [],
+  "doctors": [
+    {
+      "id": "doc-carlos",
+      "name": "Dr. Carlos Eduardo Menezes",
+      "specialty": "Clínico Geral",
+      "crm": "CRM/SP 142536",
+      "rqe": "Não aplicável",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-mariana",
+      "name": "Dra. Mariana Souza Ramos",
+      "specialty": "Pediatria",
+      "crm": "CRM/RJ 653298",
+      "rqe": "45213",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-roberto",
+      "name": "Dr. Roberto Alves Telles",
+      "specialty": "Geriatria",
+      "crm": "CRM/DF 884321",
+      "rqe": "19543",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-ricardo",
+      "name": "Dr. Ricardo Augusto Vieira",
+      "specialty": "Cardiologia",
+      "crm": "CRM/RS 341256",
+      "rqe": "27419",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-juliana",
+      "name": "Dra. Juliana Mendes Castro",
+      "specialty": "Neurologia",
+      "crm": "CRM/PR 908123",
+      "rqe": "51024",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-fernando",
+      "name": "Dr. Fernando Alencar Silva",
+      "specialty": "Psiquiatria",
+      "crm": "CRM/BA 563412",
+      "rqe": "18963",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-amanda",
+      "name": "Dra. Amanda Borges Lima",
+      "specialty": "Dermatologia",
+      "crm": "CRM/ES 447812",
+      "rqe": "32115",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-bruno",
+      "name": "Dr. Bruno Fagundes Costa",
+      "specialty": "Endocrinologia e Metabologia",
+      "crm": "CRM/SC 335412",
+      "rqe": "22698",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-vanessa",
+      "name": "Dra. Vanessa Rocha Pires",
+      "specialty": "Gastroenterologia",
+      "crm": "CRM/PE 714523",
+      "rqe": "14782",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-tiago",
+      "name": "Dr. Tiago Antunes Neves",
+      "specialty": "Pneumologia",
+      "crm": "CRM/GO 993412",
+      "rqe": "40593",
+      "type": "consulta",
+      "active": true
+    },
+    {
+      "id": "doc-andre",
+      "name": "Dr. André Luiz Carvalho",
+      "specialty": "Cirurgia Geral",
+      "crm": "CRM/SC 239845",
+      "rqe": "33412",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-paula",
+      "name": "Dra. Paula Albuquerque Melo",
+      "specialty": "Cirurgia do Aparelho Digestivo",
+      "crm": "CRM/SP 156432",
+      "rqe": "41258",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-marcos",
+      "name": "Dr. Marcos Vinícius Toledo",
+      "specialty": "Neurocirurgia",
+      "crm": "CRM/RJ 224466",
+      "rqe": "55190",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-sofia",
+      "name": "Dra. Sofia Martins Guerra",
+      "specialty": "Cirurgia Cardiovascular",
+      "crm": "CRM/MG 887711",
+      "rqe": "30214",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-rodrigo",
+      "name": "Dr. Rodrigo Sanches Peres",
+      "specialty": "Cirurgia Oncológica",
+      "crm": "CRM/PR 113355",
+      "rqe": "47823",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-beatriz",
+      "name": "Dra. Beatriz Pinheiro Dias",
+      "specialty": "Ortopedia e Traumatologia",
+      "crm": "CRM/GO 892345",
+      "rqe": "42109",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-marcelo",
+      "name": "Dr. Marcelo Fontes Xavier",
+      "specialty": "Urologia",
+      "crm": "CRM/RS 664422",
+      "rqe": "19854",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-helena",
+      "name": "Dra. Helena Silveira Campos",
+      "specialty": "Cirurgia Plástica",
+      "crm": "CRM/BA 775533",
+      "rqe": "26411",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-renato",
+      "name": "Dr. Renato Custódio Lima",
+      "specialty": "Cirurgia Pediátrica",
+      "crm": "CRM/PE 991144",
+      "rqe": "38552",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-leticia",
+      "name": "Dra. Letícia Malta Freire",
+      "specialty": "Cirurgia de Cabeça e Pescoço",
+      "crm": "CRM/CE 554411",
+      "rqe": "50921",
+      "type": "cirurgia",
+      "active": true
+    },
+    {
+      "id": "doc-camila",
+      "name": "Dra. Camila Fontes Rocha",
+      "specialty": "Ginecologia e Obstetrícia",
+      "crm": "CRM/DEMO 000001",
+      "rqe": "DEMO",
+      "type": "consulta",
+      "active": true
+    }
+  ],
+  "appointments": [],
+  "exams": [
+    {
+      "id": "exam-eco",
+      "name": "Ecocardiograma Transtorácico",
+      "category": "Imagem e gráficos",
+      "doctorIds": [
+        "doc-ricardo"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-rm",
+      "name": "Ressonância Magnética do Encéfalo",
+      "category": "Imagem e gráficos",
+      "doctorIds": [
+        "doc-juliana"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-endo",
+      "name": "Endoscopia Digestiva Alta",
+      "category": "Imagem e gráficos",
+      "doctorIds": [
+        "doc-paula",
+        "doc-vanessa"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-raiox",
+      "name": "Radiografia (Raio-X) de Tórax / Membros",
+      "category": "Imagem e gráficos",
+      "doctorIds": [
+        "doc-beatriz",
+        "doc-tiago"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-uspelv",
+      "name": "Ultrassonografia Pélvica / Transvaginal",
+      "category": "Imagem e gráficos",
+      "doctorIds": [
+        "doc-camila"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-hemo",
+      "name": "Hemograma Completo e Bioquímica (Sangue)",
+      "category": "Ambulatoriais e rotina",
+      "doctorIds": [
+        "doc-carlos",
+        "doc-mariana"
+      ],
+      "requiresMedicalOrder": false,
+      "active": true
+    },
+    {
+      "id": "exam-eeg",
+      "name": "Eletroencefalograma (EEG)",
+      "category": "Ambulatoriais e rotina",
+      "doctorIds": [
+        "doc-juliana"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-nevos",
+      "name": "Mapeamento de Nevos",
+      "category": "Ambulatoriais e rotina",
+      "doctorIds": [
+        "doc-amanda"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-espiro",
+      "name": "Espirometria",
+      "category": "Ambulatoriais e rotina",
+      "doctorIds": [
+        "doc-tiago"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    },
+    {
+      "id": "exam-polis",
+      "name": "Polissonografia",
+      "category": "Ambulatoriais e rotina",
+      "doctorIds": [
+        "doc-fernando",
+        "doc-juliana"
+      ],
+      "requiresMedicalOrder": true,
+      "active": true
+    }
+  ],
+  "examBookings": [],
+  "surgeryRequests": [],
+  "bloodDonations": [],
+  "triageRecords": [],
+  "queue": [],
+  "calls": [],
+  "prescriptions": [],
+  "results": [],
+  "notifications": [],
+  "auditLogs": [
+    {
+      "id": "log_e984a90b67cb",
+      "userId": "prof_b4f117ce3226",
+      "role": "admin",
+      "action": "login_demo_admin_atalho",
+      "relatedId": "prof_b4f117ce3226",
+      "details": null,
+      "createdAt": "2026-11-04T15:33:45.670Z"
+    },
+    {
+      "id": "log_75d71effcb5d",
+      "userId": "prof_a9f185234790",
+      "role": "medico",
+      "action": "login_profissional",
+      "relatedId": "prof_a9f185234790",
+      "details": null,
+      "createdAt": "2026-11-05T13:19:16.155Z"
+    },
+    {
+      "id": "log_3a5a1ca4774a",
+      "userId": "prof_a9f185234790",
+      "role": "medico",
+      "action": "logout",
+      "relatedId": "prof_a9f185234790",
+      "details": null,
+      "createdAt": "2026-11-05T13:19:33.873Z"
+    },
+    {
+      "id": "log_45d285d70ea1",
+      "userId": "prof_8b378f7bf8e5",
+      "role": "atendimento",
+      "action": "login_profissional",
+      "relatedId": "prof_8b378f7bf8e5",
+      "details": null,
+      "createdAt": "2026-11-05T13:19:43.560Z"
+    }
+  ],
+  "medicalRecords": [],
+  "inventoryItems": [
+    {
+      "id": "inv-demo-1",
+      "code": "HMV-ALM-0001",
+      "name": "Luva de procedimento",
+      "category": "Material hospitalar",
+      "unit": "caixa",
+      "quantity": 15,
+      "minStock": 20,
+      "maxStock": 100,
+      "location": "Prateleira A-03",
+      "supplierId": "sup-demo-1",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z",
+      "updatedAt": "2026-11-04T15:33:37.443Z"
+    },
+    {
+      "id": "inv-demo-2",
+      "code": "HMV-ALM-0002",
+      "name": "Gaze estéril",
+      "category": "Material hospitalar",
+      "unit": "pacote",
+      "quantity": 0,
+      "minStock": 15,
+      "maxStock": 80,
+      "location": "Prateleira A-04",
+      "supplierId": "sup-demo-1",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z",
+      "updatedAt": "2026-11-04T15:33:37.443Z"
+    },
+    {
+      "id": "inv-demo-3",
+      "code": "HMV-ALM-0003",
+      "name": "Máscara cirúrgica",
+      "category": "EPIs",
+      "unit": "caixa",
+      "quantity": 42,
+      "minStock": 20,
+      "maxStock": 120,
+      "location": "Prateleira B-01",
+      "supplierId": "sup-demo-2",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z",
+      "updatedAt": "2026-11-04T15:33:37.443Z"
+    },
+    {
+      "id": "inv-demo-4",
+      "code": "HMV-ALM-0004",
+      "name": "Papel A4",
+      "category": "Material administrativo",
+      "unit": "resma",
+      "quantity": 30,
+      "minStock": 10,
+      "maxStock": 60,
+      "location": "Prateleira C-02",
+      "supplierId": "sup-demo-2",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z",
+      "updatedAt": "2026-11-04T15:33:37.443Z"
+    }
+  ],
+  "inventoryBatches": [],
+  "inventoryMovements": [],
+  "inventoryRequests": [],
+  "suppliers": [
+    {
+      "id": "sup-demo-1",
+      "name": "MedSuprimentos Demo",
+      "cnpj": "00.000.000/0001-00",
+      "phone": "(61) 0000-0000",
+      "email": "contato@exemplo.com",
+      "address": "",
+      "notes": "Dados demonstrativos",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z"
+    },
+    {
+      "id": "sup-demo-2",
+      "name": "Hospitalar Goiás Demo",
+      "cnpj": "11.111.111/0001-11",
+      "phone": "(62) 0000-0000",
+      "email": "vendas@exemplo.com",
+      "address": "",
+      "notes": "Dados demonstrativos",
+      "active": true,
+      "createdAt": "2026-11-04T15:33:37.443Z"
+    }
+  ],
+  "hospitalSectors": [
+    {
+      "id": "sector_b8a6a835a589",
+      "name": "Atendimento",
+      "active": true
+    },
+    {
+      "id": "sector_0cae6b995d0d",
+      "name": "Triagem",
+      "active": true
+    },
+    {
+      "id": "sector_0ad89c544cd2",
+      "name": "Consultório 01",
+      "active": true
+    },
+    {
+      "id": "sector_48eec5a18f98",
+      "name": "Consultório 02",
+      "active": true
+    },
+    {
+      "id": "sector_d9f3d265e3fa",
+      "name": "Consultório 03",
+      "active": true
+    },
+    {
+      "id": "sector_3fb040beccf4",
+      "name": "Pediatria",
+      "active": true
+    },
+    {
+      "id": "sector_5e32abec4560",
+      "name": "Centro Cirúrgico",
+      "active": true
+    },
+    {
+      "id": "sector_8ecc077794c4",
+      "name": "Laboratório",
+      "active": true
+    },
+    {
+      "id": "sector_9c1e7a3449ec",
+      "name": "Administração",
+      "active": true
+    },
+    {
+      "id": "sector_7b8e4833c920",
+      "name": "Limpeza",
+      "active": true
+    },
+    {
+      "id": "sector_97d1b86865a9",
+      "name": "Almoxarifado",
+      "active": true
+    },
+    {
+      "id": "sector_e151da9e9fbb",
+      "name": "Recepção",
+      "active": true
+    }
+  ],
+  "insuranceProviders": [
+    {
+      "id": "ins-demo-1",
+      "name": "Convênio Demonstração A",
+      "active": true,
+      "phone": "",
+      "email": "",
+      "notes": "Convênio demonstrativo"
+    },
+    {
+      "id": "ins-demo-2",
+      "name": "Convênio Demonstração B",
+      "active": true,
+      "phone": "",
+      "email": "",
+      "notes": "Convênio demonstrativo"
+    }
+  ],
+  "patientInsurances": [],
+  "billingRecords": []
+}
